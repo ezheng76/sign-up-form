@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hide-scrollbar{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar{
+    display: none;
+}
+
+
+.left{
+    background-image: url("images/dewang-gupta-ESEnXckWlLY-unsplash.jpg");
+    background-size: cover;
+    position: relative;
+    width: 90vw;
+    height: 100vh;
+    
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+.banner img {
+    width: 5rem;
+}
+
+.banner h1{
+    color: white;
+    font-size: 85px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.right{
+    background-color:ghostwhite;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.header {
+    margin: 45px;
+    font-size: 25px;
+}
+
+.sign-up-section{
+    background-color: white;
+    padding-top: 15px;
+    box-shadow: 5px 5px 15px;
+}
+.sign-up-section p{
+    font-size: 30px;
+    margin-left: 50px ;
+}
+form{
+    margin: 50px;
+    margin-top: 0px;
+    margin-right: 200px;
+    padding-bottom: 40px ;
+}
+
+input:focus{
+    border: 2px solid lightblue;
+    outline-width: 0;
+    box-shadow: 2px 2px 10px;
+}
+input {
+    border: 2px #E5E7EB solid;
+    font-size: 23px;
+}
+
+.fields{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-shrink:1;
+    gap: 20px;
+}
+
+.fields div{
+    flex-shrink: 1;
+}
+
+.create-account{
+    font-size: 17px;
+    padding: 10px 40px;
+    margin-left: 50px;
+    background-color:chocolate;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 50px;
+    width: 200px;
+}
+
+.right > p:last-child{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+span.log-in{
+    position: inherit;
+    font-size: 20px;
+    color: chocolate;
+}
+
